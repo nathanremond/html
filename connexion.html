@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <style type="text/css" media="screen">
+        header{
+          background-color: lightgray;
+          display: flex;
+        }
+        header .logo{
+          display: flex;
+          padding: 1%;
+          width: 90%;
+        }
+        header .logo .imagelogo img{
+          width: 80%;
+        }
+        header .logo h1{
+          padding-top: 12%;
+          font-size: 150%;
+        }
+        header .utilisateur{
+          margin-top: 0.5%;
+        }
+        header .utilisateur .compteutilisateur{
+          margin-top: 40%;
+        }
+
+        .formconnexion{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        form{
+            margin-top: 10%;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: grey;
+            border: 2px solid;
+            border-radius: 16px;
+        }
+        form h2{
+            margin-left: 43%;
+        }
+        form .formchamps{
+            width: 100%;
+            padding: 2%;
+        }
+        form button{
+            margin: 2% 0 2% 44%;
+            font-size: 110%;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <div class="imagelogo">
+            <a href="index.html"><img src="https://picsum.photos/100/150" alt="logo"></a>
+          </div>
+          <a href="index.html"><h1>Site E-Commerce</h1></a>
+        </div>
+        <div class="utilisateur">
+          <div class="compteutilisateur">
+            <a href="connexion.html">Connexion</a>
+          </div>
+          <div class="compteutilisateur">
+            <a href="inscription.html">Inscription</a>
+          </div>
+        </div>
+    </header>
+
+    <div class="formconnexion">
+        <form action="" method="">
+
+            <h2>Connexion</h2>
+
+            <div class="formchamps">
+                <label for="identifiant">Identifiant</label>
+                <input type="text" name="identifiant" id="identifiant">
+            </div>
+
+            <div class="formchamps">
+                <label for="mdp">Mot de passe</label>
+                <input type="text" name="mdp" id="mdp">
+            </div>
+
+            <button type="submit">Se connecter</button>
+        </form>
+    </div>
+</body>
+</html>

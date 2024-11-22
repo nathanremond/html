@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <style type="text/css" media="screen">
+        header{
+          background-color: lightgray;
+          display: flex;
+        }
+        header .logo{
+          display: flex;
+          padding: 1%;
+          width: 90%;
+        }
+        header .logo .imagelogo img{
+          width: 80%;
+        }
+        header .logo h1{
+          padding-top: 12%;
+          font-size: 150%;
+        }
+        header .utilisateur{
+          margin-top: 0.5%;
+        }
+        header .utilisateur .compteutilisateur{
+          margin-top: 40%;
+        }
+
+        .forminscription{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        form{
+            margin-top: 10%;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: grey;
+            border: 2px solid;
+            border-radius: 16px;
+        }
+        form h2{
+            margin-left: 46%;
+        }
+        form .formchamps{
+            width: 100%;
+            padding: 2%;
+        }
+        form button{
+            margin: 2% 0 2% 47%;
+            font-size: 110%;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <div class="imagelogo">
+            <a href="index.html"><img src="https://picsum.photos/100/150" alt="logo"></a>
+          </div>
+          <a href="index.html"><h1>Site E-Commerce</h1></a>
+        </div>
+        <div class="utilisateur">
+          <div class="compteutilisateur">
+            <a href="connexion.html">Connexion</a>
+          </div>
+          <div class="compteutilisateur">
+            <a href="inscription.html">Inscription</a>
+          </div>
+        </div>
+    </header>
+
+    <div class="forminscription">
+        <form action="" method="">
+
+            <h2>Inscription</h2>
+
+            <div class="formchamps">
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom">
+            </div>
+
+            <div class="formchamps">
+                <label for="prenom">Prenom</label>
+                <input type="text" name="prenom" id="prenom">
+            </div>
+
+            <div class="formchamps">
+                <label for="tel">Téléphone</label>
+                <input type="text" name="tel" id="tel">
+            </div>
+
+            <div class="formchamps">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+            </div>
+
+            <div class="formchamps">
+                <label for="identifiant">Identifiant</label>
+                <input type="text" name="identifiant" id="identifiant">
+            </div>
+
+            <div class="formchamps">
+                <label for="mdp">Mot de passe</label>
+                <input type="text" name="mdp" id="mdp">
+            </div>
+
+            <button type="submit">S'inscrire</button>
+        </form>
+    </div>
+</body>
+</html>

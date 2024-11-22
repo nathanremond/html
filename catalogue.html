@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue</title>
+    <style type="text/css" media="screen">
+        header{
+          background-color: lightgray;
+          display: flex;
+        }
+        header .logo{
+          display: flex;
+          padding: 1%;
+          width: 90%;
+        }
+        header .logo .imagelogo img{
+          width: 80%;
+        }
+        header .logo h1{
+          padding-top: 12%;
+          font-size: 150%;
+        }
+  
+        header .utilisateur{
+          margin-top: 0.5%;
+        }
+        header .utilisateur .compteutilisateur{
+          margin-top: 40%;
+        }
+  
+        nav{
+            display: flex;
+            padding: 1%;
+            justify-content: space-between;
+        }
+        nav .liens{
+            width: 15%;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav .liens a{
+            font-size: 110%;
+        }
+        nav .panier{
+            width: 5%;
+        }
+        nav .panier button{
+            font-size: 120%;
+            border: 2px solid;
+            border-radius: 16px;
+        }
+
+        .catalogue{
+            margin: 2% 0 0 4%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .catalogue .article{
+            width: 25%;
+            padding: 1%;
+        }
+
+        footer{
+          margin-top: 5%;
+          padding-top: 1%;
+          background-color: lightgrey;
+          display: flex;
+        }
+        footer .reseaux{
+          width: 90%;
+          padding-left: 1%;
+        }
+        footer .reseaux .reseau{
+          display: flex;
+          padding: 1%;
+        }
+        footer .reseaux .reseau p{
+          margin: 2% 0 0 1%;
+        }
+        footer .liens{
+          width: 10%;
+          display: flex;
+          flex-wrap: wrap;
+          padding-top: 1%;
+        }
+        footer .liens a{
+          width: 100%;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <div class="imagelogo">
+            <a href="index.html"><img src="https://picsum.photos/100/150" alt="logo"></a>
+          </div>
+          <a href="index.html"><h1>Site E-Commerce</h1></a>
+        </div>
+        <div class="utilisateur">
+          <div class="compteutilisateur">
+            <a href="connexion.html">Connexion</a>
+          </div>
+          <div class="compteutilisateur">
+            <a href="inscription.html">Inscription</a>
+          </div>
+        </div>
+    </header>
+
+      <nav>
+        <div class="liens">
+            <a href="index.html">Accueil</a>
+            <a href="catalogue.html">Catalogue</a>
+        </div>
+
+        <div class="panier">
+            <button>Panier</button>
+        </div>
+      </nav>
+
+      <div class="catalogue">
+        <div class="article">
+            <img src="https://picsum.photos/300/200" alt="article">
+            <h2>Nom de l'article</h2>
+            <p>Infos : </p>
+            <p>Prix : €</p>
+        </div>
+        <div class="article">
+            <img src="https://picsum.photos/300/200" alt="article">
+            <h2>Nom de l'article</h2>
+            <p>Infos : </p>
+            <p>Prix : €</p>
+        </div>
+        <div class="article">
+            <img src="https://picsum.photos/300/200" alt="article">
+            <h2>Nom de l'article</h2>
+            <p>Infos : </p>
+            <p>Prix : €</p>
+        </div>
+        <div class="article">
+            <img src="https://picsum.photos/300/200" alt="article">
+            <h2>Nom de l'article</h2>
+            <p>Infos : </p>
+            <p>Prix : €</p>
+        </div>
+        <div class="article">
+            <img src="https://picsum.photos/300/200" alt="article">
+            <h2>Nom de l'article</h2>
+            <p>Infos : </p>
+            <p>Prix : €</p>
+        </div>
+        <div class="article">
+            <img src="https://picsum.photos/300/200" alt="article">
+            <h2>Nom de l'article</h2>
+            <p>Infos : </p>
+            <p>Prix : €</p>
+        </div>
+      </div>
+      
+
+      <footer>
+        <div class="reseaux">
+          <h2>Nos réseaux :</h2>
+          <div class="reseau">
+            <img src="https://picsum.photos/50/50" alt="Instagram">
+            <p>Instagram</p>
+          </div>
+          <div class="reseau">
+            <img src="https://picsum.photos/50/50" alt="X">
+            <p>X</p>
+          </div>
+          <div class="reseau">
+            <img src="https://picsum.photos/50/50" alt="Facebook">
+            <p>Facebook</p>
+          </div>
+        </div>
+
+        <div class="liens">
+          <a href="index.html">Accueil</a>
+          <a href="catalogue.html">Catalogue</a>
+          <a href="connexion.html">Connexion</a>
+          <a href="inscription.html">Inscription</a>
+        </div>
+      </footer>
+</body>
+</html>
